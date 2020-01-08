@@ -4,10 +4,10 @@
 #
 Name     : perl-DateTime-Format-Natural
 Version  : 1.08
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/S/SC/SCHUBIGER/DateTime-Format-Natural-1.08.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SC/SCHUBIGER/DateTime-Format-Natural-1.08.tar.gz
-Summary  : Parse informal natural language date/time strings
+Summary  : 'Parse informal natural language date/time strings'
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 Requires: perl-DateTime-Format-Natural-bin = %{version}-%{release}
@@ -41,7 +41,6 @@ Summary: dev components for the perl-DateTime-Format-Natural package.
 Group: Development
 Requires: perl-DateTime-Format-Natural-bin = %{version}-%{release}
 Provides: perl-DateTime-Format-Natural-devel = %{version}-%{release}
-Requires: perl-DateTime-Format-Natural = %{version}-%{release}
 Requires: perl-DateTime-Format-Natural = %{version}-%{release}
 
 %description dev
@@ -131,18 +130,18 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Calc.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Compat.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Duration.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Duration/Checks.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Expand.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Extract.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Formatted.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Helpers.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Lang/Base.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Lang/EN.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Rewrite.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Test.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Utils.pm
-/usr/lib/perl5/vendor_perl/5.28.2/DateTime/Format/Natural/Wrappers.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Calc.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Compat.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Duration.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Duration/Checks.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Expand.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Extract.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Formatted.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Helpers.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Lang/Base.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Lang/EN.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Rewrite.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Test.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Utils.pm
+/usr/lib/perl5/vendor_perl/5.30.1/DateTime/Format/Natural/Wrappers.pm
