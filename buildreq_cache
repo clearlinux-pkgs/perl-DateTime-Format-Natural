@@ -1,4 +1,4 @@
-1.15
+1.16
 perl(Clone)
 perl(DateTime)
 perl(DateTime::HiRes)
@@ -6,6 +6,5 @@ perl(DateTime::TimeZone)
 perl(List::MoreUtils)
 perl(Module::Util)
 perl(Params::Validate)
-perl(Test::MockTime)
 perl(Test::MockTime::HiRes)
 perl(boolean)
