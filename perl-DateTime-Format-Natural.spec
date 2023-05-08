@@ -4,7 +4,7 @@
 #
 Name     : perl-DateTime-Format-Natural
 Version  : 1.16
-Release  : 20
+Release  : 21
 URL      : https://cpan.metacpan.org/authors/id/S/SC/SCHUBIGER/DateTime-Format-Natural-1.16.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SC/SCHUBIGER/DateTime-Format-Natural-1.16.tar.gz
 Summary  : 'Parse informal natural language date/time strings'
