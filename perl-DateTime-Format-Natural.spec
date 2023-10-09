@@ -4,10 +4,10 @@
 # Using build pattern: cpan
 #
 Name     : perl-DateTime-Format-Natural
-Version  : 1.17
-Release  : 23
-URL      : https://cpan.metacpan.org/authors/id/S/SC/SCHUBIGER/DateTime-Format-Natural-1.17.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/S/SC/SCHUBIGER/DateTime-Format-Natural-1.17.tar.gz
+Version  : 1.18
+Release  : 24
+URL      : https://cpan.metacpan.org/authors/id/S/SC/SCHUBIGER/DateTime-Format-Natural-1.18.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/S/SC/SCHUBIGER/DateTime-Format-Natural-1.18.tar.gz
 Summary  : 'Parse informal natural language date/time strings'
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
@@ -71,8 +71,8 @@ perl components for the perl-DateTime-Format-Natural package.
 
 
 %prep
-%setup -q -n DateTime-Format-Natural-1.17
-cd %{_builddir}/DateTime-Format-Natural-1.17
+%setup -q -n DateTime-Format-Natural-1.18
+cd %{_builddir}/DateTime-Format-Natural-1.18
 
 %build
 export http_proxy=http://127.0.0.1:9/
